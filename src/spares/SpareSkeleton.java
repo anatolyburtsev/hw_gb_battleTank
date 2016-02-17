@@ -1,9 +1,7 @@
 package spares;
 
-/**
- * Created by onotole on 14.02.16.
- */
-public class SpareSkeleton {
+
+public abstract class SpareSkeleton {
     protected int weight;
 
     protected SpareSkeleton(int weight) {
@@ -18,5 +16,6 @@ public class SpareSkeleton {
     public int getWeight() {
         return weight;
     }
+    
 
 }
